@@ -1,7 +1,7 @@
 # SageAttention2 HIP57 Core
 
 Minimal SageAttention2 package for AMD/ZLUDA + HIP SDK 5.7 style Triton
-runtime, prepared for ComfyUI video inference.
+runtime, prepared for ComfyUI.
 
 This is not a full SageAttention distribution. It keeps only the fixed-length,
 non-causal QK-int8 / PV-fp16 Triton path that was validated on an AMD Radeon
@@ -44,7 +44,7 @@ Validated environment:
 - Triton `3.3.0`
 - AMD Radeon 780M Graphics exposed as `cuda:0`
 - HIP SDK 5.7 style Clang toolchain available to Triton
-- ComfyUI / Aki launcher Python environment
+- ComfyUI newest version
 
 Other AMD GPUs or ROCm/HIP versions may work, but are not guaranteed.
 
